@@ -2,6 +2,7 @@ import React, { useContext, useState } from "react";
 import axios from "axios";
 import { Form, FloatingLabel, Button } from "react-bootstrap";
 import { ArrowRight } from "phosphor-react";
+import PlantImage from "../assets/registerpageimage.png"
 import {UserRegistration} from '../dataContext/userRegistration'
 import "../styles/RegisterForm.css";
 
@@ -101,6 +102,7 @@ const RegisterForm = () => {
 					</Button>
 					<p className="member_text">Already a member?<a href="/loginform" className="signin_link"> Sign in </a></p>
 				  <p> {message && message} </p>
+				  <img src={PlantImage} alt="" style={{width: "40%"}} className="register_image"/>
 				</Form>
 				</div>
 		</div>

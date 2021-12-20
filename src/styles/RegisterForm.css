@@ -8,10 +8,17 @@
 }
 
 .form_wrapper {
+    position: relative;
     height: 85vh;
     padding: 20px;
     background-color: #F9F5F1;
     width: 1470px;
+}
+
+.register_image {
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
 }
 
 .form_container {

@@ -1,9 +1,10 @@
 import React from 'react'
+import ErrorImage from "../assets/404Error.png"
 
 const ErrorPage= () => {
     return (
         <div>
-<h3>Page not found.</h3>
+<img src={ErrorImage} alt="" style={{width: "100%"}}/>
         </div>
     )
 }

@@ -4,6 +4,7 @@ import Emoji from "a11y-react-emoji";
 import {FlowerLotus} from "phosphor-react"
 import {UserContext} from '../dataContext/UserContext'
 import { useParams } from "react-router-dom"
+import Alert from "./Alert.js"
 import "../styles/Dashboard.css"
 
 

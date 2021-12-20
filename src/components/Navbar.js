@@ -1,9 +1,12 @@
-import React from "react";
+import React, {useContext} from "react";
 import { Nav, Container, Navbar } from "react-bootstrap";
 import { FlowerLotus } from "phosphor-react";
+import {UserContext} from '../dataContext/UserContext'
 import '../styles/NavBar.css';
 
 const Navigationbar = () => {
+const { isLoggedIn } = useContext(UserContext)
+console.log(isLoggedIn)
 	return (
 		<Navbar className="navigation" fluid >
 			<Container fluid className={"no-gutters mx-0 px-0"}>
